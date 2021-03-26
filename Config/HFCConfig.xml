@@ -1,0 +1,20 @@
+<Tester>
+    <Iterations>200</Iterations>
+    <Logfile>Log.txt</Logfile>
+    <Header></Header>
+    <Message>Images/big.jpg</Message>
+    <Keysize>32</Keysize>
+    <!--<Key>HereShouldBeAn32BytesKey</Key>-->
+    <Noncesize>32</Noncesize>
+    <!--<Nonce>HereSouldBeAn32BytesNonce</Nonce>-->
+    <Scheme>
+        <CETransform>
+            <HFC>SHA256_HFC</HFC>
+            <!--<HFC>Whrlpool_HFC</HFC>-->
+            <AEAD>
+                <AES_GCM>
+                </AES_GCM>
+            </AEAD>
+        </CETransform>
+    </Scheme>
+</Tester>

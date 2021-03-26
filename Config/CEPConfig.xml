@@ -1,0 +1,15 @@
+<Tester>
+    <Iterations>200</Iterations>
+    <Logfile>Log.txt</Logfile>
+    <Header></Header>
+    <Message>Images/big.jpg</Message>
+    <Keysize>16</Keysize>
+    <Noncesize>16</Noncesize>
+    <Scheme>
+        <CEP>
+            <Hash>SHA256</Hash>
+            <HashCr>SHA256</HashCr>
+            <PRG>CTR_Mode_AES</PRG>
+        </CEP>
+    </Scheme>
+</Tester>

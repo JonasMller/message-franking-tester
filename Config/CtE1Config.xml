@@ -1,0 +1,19 @@
+<Tester>
+    <Iterations>200</Iterations>
+    <Logfile>Log.txt</Logfile>
+    <Header></Header>
+    <Message>Images/big.jpg</Message>
+    <Keysize>32</Keysize>
+    <Noncesize>16</Noncesize>
+    <Scheme>
+        <CtE1>
+            <Hash>SHA256</Hash>
+            <AEAD>
+                <EtM>
+                    <Hash>SHA256</Hash>
+                    <Encryption>CBC_Mode_AES</Encryption>
+                </EtM>
+            </AEAD>
+        </CtE1>
+    </Scheme>
+</Tester>
